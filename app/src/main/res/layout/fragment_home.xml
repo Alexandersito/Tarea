@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="10">
+
+
+            <ImageButton
+                android:id="@+id/imgbPerro"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/perro"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal1" />
+
+            <ImageButton
+                android:id="@+id/imgbLeon"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/leon"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal2" />
+
+            <ImageButton
+                android:id="@+id/imgbElefante"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/elefante"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal3" />
+
+            <ImageButton
+                android:id="@+id/imgbTigre"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/tigre"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal4" />
+
+            <ImageButton
+                android:id="@+id/imgbMono"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/mono"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal5" />
+
+            <ImageButton
+                android:id="@+id/imgbGato"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/gato"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal6" />
+
+            <ImageButton
+                android:id="@+id/imgbTucan"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/tucan"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal7" />
+
+            <ImageButton
+                android:id="@+id/imgbAguila"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/aguila"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal8" />
+
+            <ImageButton
+                android:id="@+id/imgbVaca"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/vaca"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal9" />
+
+            <ImageButton
+                android:id="@+id/imgbHipopotamo"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/hipopotamo"
+                android:scaleType="centerInside"
+                android:src="@drawable/animal10" />
+
+            //BOTTON NECESARIO
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"/>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</FrameLayout>

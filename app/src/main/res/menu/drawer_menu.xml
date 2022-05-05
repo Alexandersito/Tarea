@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_calculadora"
+            android:title="Calculadora"
+            android:icon="@drawable/calculadora"/>
+
+        <item
+            android:id="@+id/nav_sonidos"
+            android:title="Sonidos"
+            android:icon="@drawable/sonidos"/>
+
+        <item
+            android:id="@+id/nav_maravillas"
+            android:title="Maravillas"
+            android:icon="@drawable/maravillas"/>
+        <item
+            android:id="@+id/nav_nosotros"
+            android:title="Nosotros"
+            android:icon="@drawable/nosotros"/>
+
+    </group>
+
+</menu>

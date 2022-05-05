@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaravillasFragment">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="7">
+
+            //PRIMERA
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillaa" />
+
+            <TextView
+                android:text="Machu Pichu"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="Esta antigua ciudad inca es uno de los tesoros más preciados de Perú. Fue construida a mediados del siglo XV y se cree que fue una de las residencias del noveno inca del Tahuantinsuyo, Pachacútec, aunque en ella también están los restos de un santuario."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //SEGUNDA
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillab" />
+
+            <TextView
+                android:text="Chichén Itzá"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="La legendaria ciudad maya de Chichén Itzá, Patrimonio de la Humanidad declarada por la UNESCO desde 1988 y Maravilla del Mundo desde 2007, sobresalió como centro cultural y político de la vieja civilización maya y fue uno de los asentamientos más extensos del centro-norte de la península de Yucatán."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //TERCERA
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillac" />
+
+            <TextView
+                android:text="Coliseo Romano"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="El Coliseo se convirtió en el mayor anfiteatro romano, con una estructura elíptica de 188 metros de longitud, 156 metros de ancho y 57 metros de altura. Realizado en ladrillo y cubierto con travertino se dividía en cinco niveles con una capacidad para más de 50.000 personas."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //CUARTO
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillad" />
+
+            <TextView
+                android:text="Cristo Redentor"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="El Cristo Redentor es una escultura de estilo Art Déco, con los brazos abiertos en forma de una cruz, de 38 metros de altura, el equivalente a un edificio de 13 pisos. De ese total, 30 metros son equivalentes al monumento y los otros ocho metros equivalen al pedestal."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //QUINTO
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillae" />
+
+            <TextView
+                android:text="La Gran Muralla China"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="La Gran Muralla China es una antigua fortificación china construida y reconstruida entre el siglo V a.C. y el siglo XVI (Edad Moderna), para proteger la frontera norte del Imperio Chino durante las sucesivas dinastías imperiales de los ataques de los nómadas xiongnu de Mongolia y Manchuria."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //SEXTO
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillaf" />
+
+            <TextView
+                android:text="El Taj Mahal"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="Taj Mahal quiere decir 'corona de los palacios' y es una de las siete maravillas del mundo. Fue construido entre 1631 y 1653 en Agra, la India. Se trata de un mausoleo dedicado a la esposa favorita del emperador Shah Jahan, llamada Arjumand Banu Begum, conocida como Mumtaz Mahal."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //SEPTIMO
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="294dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerInside"
+                android:src="@drawable/maravillag" />
+
+            <TextView
+                android:text="La Ciudad de Petra"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="Petra, o Raqmu, como la llamaban sus segundos pobladores, los nabateos, es uno de esos enclaves que dejan sin palabras cuando se les visita por primera vez. Petra en realidad es un nombre griego que significa “excavada en piedra” y es que, ubicada en un angosto valle, esta ciudad está literalmente tallada en la roca."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="italic"
+                />
+
+            //BOTTON NECESARIO
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"/>
+        </GridLayout>
+
+    </ScrollView>
+</FrameLayout>
